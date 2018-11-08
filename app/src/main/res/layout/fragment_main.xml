@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.mainFragment.MainFragment">
+
+    <TextView
+        android:id="@+id/tipe_kamus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kamus"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="4"
+            android:hint="@string/cari_terjemahan"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/custom_inputtext" />
+
+        <ImageButton
+            android:id="@+id/btn_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="20dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/btn_custom_bordered"
+            android:src="@drawable/ic_search_black_24dp"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
+
+</LinearLayout>

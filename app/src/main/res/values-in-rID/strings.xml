@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kamus Tutorial</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="kamus_tutorial">Kamus Tutorial</string>
+    <string name="english_indonesia">Inggris-Indonesia</string>
+    <string name="indonesia_english">Indonesia-Inggris</string>
+    <string name="cari_terjemahan">Cari terjemahan</string>
+    <string name="kamus">Kamus</string>
+    <string name="enin">Kamus : Inggris-Indonesia</string>
+    <string name="inen">Kamus : Indonesia-Inggris</string>
+    <string name="first_load">Sistem akan meload data untuk pertama kali\nHarap menunggu</string>
+    <string name="alert_search_empty">Isi text untuk melihat terjemahan</string>
+    <string name="translation">Terjemahan :</string>
+</resources>
